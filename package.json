@@ -1,0 +1,26 @@
+{
+  "name": "ws-config",
+  "version": "0.1.14",
+  "description": "The way to manage config files and params in yaml.",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "start": "nodemon ./dist/main.js",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "dev": "tsc && concurrently -n \"ts,node\" \"npm run watch\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "eujandergois",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.3"
+  }
+}
