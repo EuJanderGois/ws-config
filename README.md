@@ -4,7 +4,7 @@ Basic lib for get config params from yaml files.
 
 Created for individual use but open source on MIT license.
 
-For contribute or fork visit [GitHub Repo]().
+For contribute or fork visit [GitHub Repo](https://github.com/EuJanderGois/ws-config).
 
 ## Installation
 
