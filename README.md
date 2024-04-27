@@ -47,3 +47,13 @@ console.log(config.version);
 ```
 
 The output be: `1.0.0`.
+
+## Changelog
+
+### Middle Changes
+> 0.1.x <br>
+Added all current functionalities.
+
+### Minor Changes
+> 0.1.16 <br>
+Fixed imports using require.

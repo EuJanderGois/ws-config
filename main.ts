@@ -29,4 +29,4 @@ function getConfig(filename: string) {
     }
 }
 
-export default getConfig;
+export { getConfig };

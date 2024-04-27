@@ -24,6 +24,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getConfig = void 0;
 const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 const yaml = __importStar(require("js-yaml"));
@@ -47,4 +48,4 @@ function getConfig(filename) {
         process.exit(1);
     }
 }
-exports.default = getConfig;
+exports.getConfig = getConfig;
