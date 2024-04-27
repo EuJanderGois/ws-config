@@ -1,6 +1,6 @@
 {
   "name": "ws-config",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "The way to manage config files and params in yaml.",
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
