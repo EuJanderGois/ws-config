@@ -23,7 +23,7 @@ npm install ws-config
 To use you can import the `getConfig` and store this in a const.
 
 ``` javascript
-import getConfig from "ws-config";
+import { getConfig } from "ws-config";
 
 const config = getConfig("your_config_file.yaml");
 ```
