@@ -39,14 +39,23 @@ version: "1.0.0"
 
 And call in your code:
 ``` javascript
-import getConfig from "ws-config";
+import { getConfig } from "ws-config";
 
 const config = getConfig("config.yaml");
 
 console.log(config.version);
 ```
 
-The output be: `1.0.0`.
+> The output be: `1.0.0`.
+
+Using default require:
+``` javascript
+
+const { getConfig } = require("ws-config");
+
+// and the same code of before example
+
+```
 
 ## Changelog
 
@@ -55,5 +64,8 @@ The output be: `1.0.0`.
 Added all current functionalities.
 
 ### Minor Changes
+> 0.1.17 <br>
+Updated readme file.
+
 > 0.1.16 <br>
 Fixed imports using require.
